@@ -1,6 +1,6 @@
 # Memory Management
 
-This repository is for learning and practicing memory management in C. I use it to document my daily learning progress.
+This repository is for learning and practicing memory management in C, C++, and Rust. I use it to document my daily learning progress.
 
 ![C Language](https://img.shields.io/badge/programming-C%20Language-blue)
 
@@ -20,3 +20,10 @@ This repository is for learning and practicing memory management in C. I use it 
 - [Realloc](./3-dynamic-memory/3-realloc.c) - Resizing previously allocated memory blocks.
 - [Dangling Pointer](./3-dynamic-memory/4-dangling-pointer.c) - Hazards of accessing freed memory.
 - [Double Free](./3-dynamic-memory/5-double-free.c) - Preventing memory corruption errors.
+
+## 4. Memory Borrow (Rust)
+- [Immutable Borrow](./4-memory-borrow/immutable_borrow/src/main.rs) - Multiple readers, no writers.
+- [Mutable Borrow](./4-memory-borrow/mutable_borrow/src/main.rs) - One writer, no readers.
+
+## 5. Smart Pointers (C++)
+- [Overview](./5-smart-pointers/README.md) - `unique_ptr`, `shared_ptr`, `weak_ptr`, deleters.
