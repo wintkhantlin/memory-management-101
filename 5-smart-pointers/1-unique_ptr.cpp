@@ -3,6 +3,8 @@
 int main() {
     // can use auto num = std::make_unique<int>();
     std::unique_ptr<int> num = std::make_unique<int>();
+    
+    // std::unique_ptr<int> cp = num; you cannot not copy the pointer
 
     *num = random();
     
